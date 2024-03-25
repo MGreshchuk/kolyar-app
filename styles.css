@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 256px;
+  height: 128px;
+}
+
+a {
+  color: #3fa4d5 !important;
+}
+
+.nav-item {
+  font-size: 24px !important;
+}
+
+.nav-item:hover {
+  text-decoration: #fff !important;
+  background-color: #fcbc3b;
+  border-radius: 14px;
+}
+
+h5 {
+  font-style: italic;
+  font-size: 40px !important;
+}
+
+.about {
+  padding: 32px auto;
+  margin: auto 48px;
+}
