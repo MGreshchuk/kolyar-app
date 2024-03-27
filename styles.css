@@ -1,35 +1,132 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   box-sizing: border-box;
 }
 
+.nav-container {
+  margin-bottom: 16px;
+}
+
 .logo {
-  width: 256px;
+  width: 448px;
   height: 128px;
 }
 
 a {
-  color: #3fa4d5 !important;
+  color: #46d3f3 !important;
+}
+
+a:hover {
+  color: #000 !important;
 }
 
 .nav-item {
   font-size: 24px !important;
 }
 
+.carousel-img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 11rem !important;
+}
+
+@media (max-width: 540px) {
+  .logo {
+    width: 240px;
+    height: 72px;
+  }
+
+  .nav-item {
+    font-size: 24px !important;
+    padding-left: 8px;
+  }
+
+  .carousel-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .about {
+    font-size: 8px;
+    margin: 40px 10px;
+  }
+}
+
+@media (min-width: 540px) {
+  h5 {
+    font-size: 36px !important;
+  }
+
+  .about {
+    margin: 65px 240px !important;
+  }
+
+  .nav-item {
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
+  }
+
+  .logo {
+    margin-right: 40px;
+  }
+
+  .navbar-nav {
+    flex: auto;
+  }
+
+  .nav-item {
+    font-size: 24px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .nav-item:hover {
-  text-decoration: #fff !important;
-  background-color: #fcbc3b;
-  border-radius: 14px;
+  background-color: #ffbe00;
 }
 
-h5 {
-  font-style: italic;
-  font-size: 40px !important;
+.nav-item:focus {
+  background-color: #ffbe00;
 }
 
-.about {
-  padding: 32px auto;
-  margin: auto 48px;
+footer {
+  background-color: #ffbe00;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.fab {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.fab:hover {
+  background-color: #ced4da;
+}
+
+.logo-link-1 {
+  font-size: 24px;
+  color: #4267b2;
+  margin: 10px;
+}
+
+.logo-link-2 {
+  font-size: 24px;
+  color: #0072b1;
+  margin: 10px;
+}
+
+.bottom-text {
+  padding: 12px;
 }

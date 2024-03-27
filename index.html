@@ -20,9 +20,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://kit.fontawesome.com/3bd32111fd.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Kolyar</title>
   </head>
@@ -30,10 +35,10 @@
     <!-- Header -->
 
     <nav class="navbar navbar-expand-lg" style="background-color: #fff">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="logo" src="/images/kolyar2_eng.jpeg" />
-        </a>
+      <div class="container nav-container">
+        <div class="navbar-brand" href="#" style="padding-bottom: 18px">
+          <img class="logo" src="/images/Logo_kolyar_eng.jpg" />
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +53,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -91,21 +98,45 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="/images/Combine.png" class="d-block w-100" alt="..." />
+          <img
+            src="/images/Combine.png"
+            class="carousel-img d-block w-100"
+            alt="..."
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h5>ТОВ "КОЛЯР" - Гарантія високої якості та вчасної доставки!</h5>
+            <h5
+              style="
+                font-style: italic;
+                font-size: 34px !important;
+                font-weight: 600;
+              "
+            >
+              ТОВ "КОЛЯР" - Гарантія високої якості та вчасної доставки!
+            </h5>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="/images/Tractors.png" class="d-block w-100" alt="..." />
+          <img
+            src="/images/Tractors.png"
+            class="carousel-img d-block w-100"
+            alt="..."
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h5>ТОВ "КОЛЯР" - Пошук способів співпраці!</h5>
+            <h5 style="font-style: italic; font-weight: 600">
+              ТОВ "КОЛЯР" - Пошук способів співпраці!
+            </h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/images/Combine.png" class="d-block w-100" alt="..." />
+          <img
+            src="/images/YellowComb.png"
+            class="carousel-img d-block w-100"
+            alt="..."
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Дякуємо, що обрали - ТОВ "КОЛЯР"!</h5>
+            <h5 style="font-style: italic; font-weight: 600">
+              Дякуємо, що обрали - ТОВ "КОЛЯР"!
+            </h5>
           </div>
         </div>
       </div>
@@ -132,11 +163,9 @@
     <!-- Body Text -->
 
     <div class="about">
-      <h5 class="text-center" style="margin: 16px">Про Нас</h5>
-
-      <div class="d-flex justify-content-center">
-        <img src="/images/kolyar_eng1111.png" />
-      </div>
+      <h5 class="text-center" style="margin: 30px; font-weight: 600">
+        Про нас
+      </h5>
 
       <p class="text-center">
         ТОВ «КОЛЯР» - компанія, яка успішно працює на ринку
@@ -152,8 +181,7 @@
       <p class="text-center">
         Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в
         Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію,
-        Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан, Російську
-        Федерацію, Республіку Білорусь та інші країни.
+        Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші країни.
       </p>
       <p class="text-center">
         Доставка наших товарів здійснюються різними видами транспортних засобів,
@@ -168,5 +196,30 @@
         постійні перевірки якості у незалежних акредитованих лабораторіях.
       </p>
     </div>
+    <footer class="text-center">
+      <div class="container p-4 pb-3">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5">
+            <p class="pt-2">
+              <strong>Our Socials</strong>
+            </p>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/zelenskiy.official"
+              ><i class="fab fa-facebook-square logo-link-1"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://ua.linkedin.com/in/maksym-greshchuk-ba2466221/ru"
+              ><i class="fab fa-linkedin-in logo-link-2"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bottom-text text-center bg-dark">
+      <small style="color: #fff">© 2024 ТОВ "КОЛЯР"</small>
+    </div>
+    <!-- footer closed -->
   </body>
 </html>
