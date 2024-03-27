@@ -5,6 +5,31 @@
   box-sizing: border-box;
 }
 
+.langWrap {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffbe00;
+  padding: 10px;
+}
+
+.langWrap a {
+  text-decoration: none;
+  font-weight: 700;
+  margin: 12px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+a.active {
+  color: #ffbe00 !important;
+  background-color: #212529;
+}
+
+.langWrap a:hover {
+  background-color: #ced4da;
+}
+
 .nav-container {
   margin-bottom: 16px;
 }
@@ -36,6 +61,11 @@ a:hover {
 }
 
 @media (max-width: 540px) {
+  .navbar-brand {
+    margin-left: auto;
+    padding-right: 10px;
+  }
+
   .logo {
     width: 240px;
     height: 72px;

@@ -32,193 +32,201 @@
     <title>Kolyar</title>
   </head>
   <body>
-    <!-- Header -->
-
-    <nav class="navbar navbar-expand-lg" style="background-color: #fff">
-      <div class="container nav-container">
-        <div class="navbar-brand" href="#" style="padding-bottom: 18px">
-          <img class="logo" src="/images/Logo_kolyar_eng.jpg" />
+    <div class="main-container">
+      <div class="langWrap">
+        <a href="#" language="ukrainian" class="active">UA</a>
+        <a href="#" language="polish">PL</a>
+        <a href="#" language="english">EN</a>
+        <a href="#" language="german">DE</a>
+      </div>
+      <nav class="navbar navbar-expand-lg" style="background-color: #fff">
+        <div class="container nav-container">
+          <div class="navbar-brand" href="#" style="padding-bottom: 18px">
+            <img class="logo" src="/images/Logo_kolyar_eng.jpg" />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Production</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
+      </nav>
+
+      <!-- Carousel -->
+
+      <div id="carouselExampleDark" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="/images/Combine.png"
+              class="carousel-img d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5
+                style="
+                  font-style: italic;
+                  font-size: 34px !important;
+                  font-weight: 600;
+                "
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Production</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
-            </li>
-          </ul>
+                ТОВ "КОЛЯР" - Гарантія високої якості та вчасної доставки!
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="/images/Tractors.png"
+              class="carousel-img d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-style: italic; font-weight: 600">
+                ТОВ "КОЛЯР" - Пошук способів співпраці!
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/YellowComb.png"
+              class="carousel-img d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-style: italic; font-weight: 600">
+                Дякуємо, що обрали - ТОВ "КОЛЯР"!
+              </h5>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <!-- Carousel -->
-
-    <div id="carouselExampleDark" class="carousel slide">
-      <div class="carousel-indicators">
         <button
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
         <button
+          class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img
-            src="/images/Combine.png"
-            class="carousel-img d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5
-              style="
-                font-style: italic;
-                font-size: 34px !important;
-                font-weight: 600;
-              "
-            >
-              ТОВ "КОЛЯР" - Гарантія високої якості та вчасної доставки!
-            </h5>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img
-            src="/images/Tractors.png"
-            class="carousel-img d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="font-style: italic; font-weight: 600">
-              ТОВ "КОЛЯР" - Пошук способів співпраці!
-            </h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="/images/YellowComb.png"
-            class="carousel-img d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="font-style: italic; font-weight: 600">
-              Дякуємо, що обрали - ТОВ "КОЛЯР"!
-            </h5>
-          </div>
-        </div>
+
+      <!-- Body Text -->
+
+      <div class="about">
+        <h5 class="text-center" style="margin: 30px; font-weight: 600">
+          Про нас
+        </h5>
+
+        <p class="text-center">
+          ТОВ «КОЛЯР» - компанія, яка успішно працює на ринку
+          сільськогосподарської продукції України та міжнародному ринку. Ми
+          здійснюємо експортні поставки товарів українського походження:
+          зернових, бобових, олійних культур, лікарських рослин, насіння для
+          корму птахів та домашніх тварин, спецій, круп, овочів, олій і т.ін.
+          Наша компанія, активно, співпрацює з великою кількістю провідних
+          українських виробників сільськогосподарської продукції, елеваторами,
+          зернопереробними підприємствами, комбікормовими заводами,
+          олійно-жировими комбінатами, транспортними підприємствами.
+        </p>
+        <p class="text-center">
+          Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в
+          Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію,
+          Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші
+          країни.
+        </p>
+        <p class="text-center">
+          Доставка наших товарів здійснюються різними видами транспортних
+          засобів, зокрема: вагонами-зерновозами, морськими контейнерами,
+          вантажними автомобілями. Ми забезпечуємо упакування продукції у
+          будь-які види тари (поліпропіленові/паперові мішки, біг-беги, бочки,
+          на піддонах) або насипом, в залежності від вимог наших покупців.
+        </p>
+        <p class="text-center">
+          Ми дуже цінуємо наших клієнтів, тому поставляємо товари тільки високої
+          якості. Ми завжди здійснюємо ретельний відбір кращих товарів,
+          проводимо постійні перевірки якості у незалежних акредитованих
+          лабораторіях.
+        </p>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- Body Text -->
-
-    <div class="about">
-      <h5 class="text-center" style="margin: 30px; font-weight: 600">
-        Про нас
-      </h5>
-
-      <p class="text-center">
-        ТОВ «КОЛЯР» - компанія, яка успішно працює на ринку
-        сільськогосподарської продукції України та міжнародному ринку. Ми
-        здійснюємо експортні поставки товарів українського походження: зернових,
-        бобових, олійних культур, лікарських рослин, насіння для корму птахів та
-        домашніх тварин, спецій, круп, овочів, олій і т.ін. Наша компанія,
-        активно, співпрацює з великою кількістю провідних українських виробників
-        сільськогосподарської продукції, елеваторами, зернопереробними
-        підприємствами, комбікормовими заводами, олійно-жировими комбінатами,
-        транспортними підприємствами.
-      </p>
-      <p class="text-center">
-        Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в
-        Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію,
-        Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші країни.
-      </p>
-      <p class="text-center">
-        Доставка наших товарів здійснюються різними видами транспортних засобів,
-        зокрема: вагонами-зерновозами, морськими контейнерами, вантажними
-        автомобілями. Ми забезпечуємо упакування продукції у будь-які види тари
-        (поліпропіленові/паперові мішки, біг-беги, бочки, на піддонах) або
-        насипом, в залежності від вимог наших покупців.
-      </p>
-      <p class="text-center">
-        Ми дуже цінуємо наших клієнтів, тому поставляємо товари тільки високої
-        якості. Ми завжди здійснюємо ретельний відбір кращих товарів, проводимо
-        постійні перевірки якості у незалежних акредитованих лабораторіях.
-      </p>
-    </div>
-    <footer class="text-center">
-      <div class="container p-4 pb-3">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-5">
-            <p class="pt-2">
-              <strong>Our Socials</strong>
-            </p>
-            <a
-              target="_blank"
-              href="https://www.facebook.com/zelenskiy.official"
-              ><i class="fab fa-facebook-square logo-link-1"></i
-            ></a>
-            <a
-              target="_blank"
-              href="https://ua.linkedin.com/in/maksym-greshchuk-ba2466221/ru"
-              ><i class="fab fa-linkedin-in logo-link-2"></i
-            ></a>
+      <footer class="text-center">
+        <div class="container p-4 pb-3">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5">
+              <p class="pt-2">
+                <strong>Our Socials</strong>
+              </p>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/zelenskiy.official"
+                ><i class="fab fa-facebook-square logo-link-1"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://ua.linkedin.com/in/maksym-greshchuk-ba2466221/ru"
+                ><i class="fab fa-linkedin-in logo-link-2"></i
+              ></a>
+            </div>
           </div>
         </div>
+      </footer>
+      <div class="bottom-text text-center bg-dark">
+        <small style="color: #fff">© 2024 ТОВ "КОЛЯР"</small>
       </div>
-    </footer>
-    <div class="bottom-text text-center bg-dark">
-      <small style="color: #fff">© 2024 ТОВ "КОЛЯР"</small>
     </div>
     <!-- footer closed -->
   </body>
