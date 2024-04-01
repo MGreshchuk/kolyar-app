@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="shortcut icon" type="x-icon" href="/images/1.jpg" />
+
     <link rel="stylesheet" href="styles.css" />
 
     <link
@@ -39,6 +41,50 @@
         <a href="#" language="german">DE</a>
         <a href="#" language="polish">PL</a>
       </div>
+
+      <script>
+        const langEl = document.querySelector('.langWrap');
+        const link = document.querySelectorAll('a');
+        const titleEl = document.querySelector('.title');
+        const carouselEl = document.querySelector('.carouselCap1');
+        const descrEl = document.querySelector('.aboutParagraph1');
+
+        link.forEach((el) => {
+          el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+
+            const attr = el.getAttribute('language');
+
+            titleEl.textContent = data[attr].title;
+            carouselEl.textContent = data[attr].carouselCap1;
+            descrEl.textContent = data[attr].aboutParagraph1;
+          });
+        });
+
+        let data = {
+          english: {
+            title: 'About Us',
+            navLink1: 'Home',
+            navLink2: 'About',
+            navLink3: 'Production',
+            navLink4: 'Contact',
+            carouselCap1:
+              'LLC "KOLYAR" - Guarantee of high quality and timely delivery!',
+            carouselCap2: 'LLC "KOLYAR" - Search for ways to cooperate!',
+            carouselCap3: 'Thank you for choosing "KOLYAR" LLC!',
+            aboutParagraph1:
+              '"KOLYAR" LLC is a company that works successfully on the market agricultural products of Ukraine and the international market. We we carry out export deliveries of goods of Ukrainian origin: grain, leguminous, oil crops, medicinal plants, seeds for feed for birds and domestic animals, spices, cereals, vegetables, oils, etc. Our company actively cooperates with a large number of leading companies Ukrainian producers of agricultural products, elevators, grain processing enterprises, feed mills, oil and fat plants, transport enterprises.',
+            aboutParagraph2:
+              'Our products are shipped to a number of countries in Europe and Asia. In particular, in Germany, Austria, the Netherlands, Italy, Spain, Poland, the Czech Republic, Hungary, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and others countries.',
+            aboutParagraph3:
+              'The delivery of our goods is carried out by various types of transport means, in particular: grain wagons, sea containers, trucks. We provide product packaging in any types of containers (polypropylene/paper bags, big-bags, barrels, on pallets) or in bulk, depending on the requirements of our customers.',
+            aboutParagraph4:
+              'We value our customers very much, so we deliver only high-quality products quality We always carefully select the best products, we conduct constant quality checks at independent accredited ones laboratories.',
+          },
+        };
+      </script>
+
       <nav class="navbar navbar-expand-lg" style="background-color: #fff">
         <div class="container nav-container">
           <div class="navbar-brand" href="#" style="padding-bottom: 18px">
@@ -56,20 +102,20 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="nav-link-wrap navbar-nav ms-auto">
               <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="index.html"
+                <a class="nav-link n-l1" aria-current="page" href="index.html"
                   >Головна</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Про нас</a>
+                <a class="nav-link n-l2" href="#">Про нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Продукція</a>
+                <a class="nav-link n-l3" href="#">Продукція</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Контакти</a>
+                <a class="nav-link n-l4" href="#">Контакти</a>
               </li>
             </ul>
           </div>
@@ -110,6 +156,7 @@
             />
             <div class="carousel-caption d-none d-md-block">
               <h5
+                class="carouselCap1"
                 style="
                   font-style: italic;
                   font-size: 34px !important;
@@ -127,7 +174,10 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5 style="font-style: italic; font-weight: 600">
+              <h5
+                class="carouselCap2"
+                style="font-style: italic; font-weight: 600"
+              >
                 ТОВ "КОЛЯР" - Пошук способів співпраці!
               </h5>
             </div>
@@ -139,7 +189,10 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5 style="font-style: italic; font-weight: 600">
+              <h5
+                class="carouselCap3"
+                style="font-style: italic; font-weight: 600"
+              >
                 Дякуємо, що обрали - ТОВ "КОЛЯР"!
               </h5>
             </div>
@@ -168,11 +221,11 @@
       <!-- Body Text -->
 
       <div class="about">
-        <h5 class="text-center" style="margin: 30px; font-weight: 600">
+        <h5 class="title text-center" style="margin: 30px; font-weight: 600">
           Про нас
         </h5>
 
-        <p class="text-center">
+        <p class="about-paragraph-1 text-center">
           ТОВ «КОЛЯР» - компанія, яка успішно працює на ринку
           сільськогосподарської продукції України та міжнародному ринку. Ми
           здійснюємо експортні поставки товарів українського походження:
@@ -183,20 +236,20 @@
           зернопереробними підприємствами, комбікормовими заводами,
           олійно-жировими комбінатами, транспортними підприємствами.
         </p>
-        <p class="text-center">
+        <p class="about-paragraph-2 text-center">
           Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в
           Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію,
           Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші
           країни.
         </p>
-        <p class="text-center">
+        <p class="about-paragraph-3 text-center">
           Доставка наших товарів здійснюються різними видами транспортних
           засобів, зокрема: вагонами-зерновозами, морськими контейнерами,
           вантажними автомобілями. Ми забезпечуємо упакування продукції у
           будь-які види тари (поліпропіленові/паперові мішки, біг-беги, бочки,
           на піддонах) або насипом, в залежності від вимог наших покупців.
         </p>
-        <p class="text-center">
+        <p class="about-paragraph-4 text-center">
           Ми дуже цінуємо наших клієнтів, тому поставляємо товари тільки високої
           якості. Ми завжди здійснюємо ретельний відбір кращих товарів,
           проводимо постійні перевірки якості у незалежних акредитованих
