@@ -101,13 +101,6 @@ a {
     margin: 65px 240px !important;
   }
 
-  .nav-item {
-    border-style: solid;
-    border-width: 1px;
-    border-left-style: none;
-    border-right-style: none;
-  }
-
   .logo {
     margin-right: 40px;
   }
@@ -124,20 +117,46 @@ a {
   }
 }
 
+@media (min-width: 968px) {
+  .nav-item {
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
+  }
+}
 .nav-item:hover {
-  background-color: #ffbe00;
+  background-color: #e9eaec;
 }
 
 .nav-item:focus {
-  background-color: #ffbe00;
+  background-color: #e9eaec;
+}
+
+.dropdown-item {
+  color: #ffbe00 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #e9eaec !important;
+}
+
+.dropdown-item:focus {
+  background-color: #e9eaec;
 }
 
 footer {
-  background-color: #ffbe00;
+  background-image: url(/images/Sunflowers.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+strong {
+  color: #fff;
+  font-style: italic;
 }
 
 .fab {

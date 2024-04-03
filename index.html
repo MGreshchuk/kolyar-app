@@ -53,12 +53,6 @@
           el.addEventListener('click', () => {
             langEl.querySelector('.active').classList.remove('active');
             el.classList.add('active');
-
-            const attr = el.getAttribute('language');
-
-            titleEl.textContent = data[attr].title;
-            carouselEl.textContent = data[attr].carouselCap1;
-            descrEl.textContent = data[attr].aboutParagraph1;
           });
         });
 
@@ -111,8 +105,29 @@
               <li class="nav-item">
                 <a class="nav-link n-l2" href="#">Про нас</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link n-l3" href="#">Продукція</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Продукція</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/oliyni.html"
+                      >Олійні, спеції</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Бобові</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Насіння для корму птахів</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Зернові</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link n-l4" href="#">Контакти</a>
@@ -237,25 +252,37 @@
           олійно-жировими комбінатами, транспортними підприємствами.
         </p>
         <p class="about-paragraph-2 text-center">
-          Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в
-          Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію,
-          Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші
-          країни.
-        </p>
-        <p class="about-paragraph-3 text-center">
           Доставка наших товарів здійснюються різними видами транспортних
           засобів, зокрема: вагонами-зерновозами, морськими контейнерами,
           вантажними автомобілями. Ми забезпечуємо упакування продукції у
           будь-які види тари (поліпропіленові/паперові мішки, біг-беги, бочки,
           на піддонах) або насипом, в залежності від вимог наших покупців.
         </p>
-        <p class="about-paragraph-4 text-center">
+        <p class="about-paragraph-3 text-center">
           Ми дуже цінуємо наших клієнтів, тому поставляємо товари тільки високої
           якості. Ми завжди здійснюємо ретельний відбір кращих товарів,
           проводимо постійні перевірки якості у незалежних акредитованих
           лабораторіях.
         </p>
       </div>
+
+      <div class="container text-center">
+        <div class="row g-2">
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3">Custom column padding</div>
+          </div>
+        </div>
+      </div>
+
       <footer class="text-center">
         <div class="container p-4 pb-3">
           <div class="row d-flex justify-content-center">
