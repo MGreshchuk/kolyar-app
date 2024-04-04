@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+.col-6 img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.p-3 {
+  font-weight: 600;
+  font-style: italic;
+}
+
 .langWrap {
   display: flex;
   justify-content: flex-end;
@@ -61,6 +73,13 @@ a {
 }
 
 @media (max-width: 540px) {
+  .col-6 img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: 100% 0;
+  }
+
   .langWrap {
     display: flex;
     justify-content: center;

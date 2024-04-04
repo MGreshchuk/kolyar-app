@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="x-icon" href="/images/1.jpg" />
+
+    <link rel="stylesheet" href="bobovi.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/3bd32111fd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Kolyar</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="langWrap">
+        <a href="#" language="ukrainian" class="active">UA</a>
+        <a href="#" language="english">EN</a>
+        <a href="#" language="german">DE</a>
+        <a href="#" language="polish">PL</a>
+      </div>
+
+      <script>
+        const langEl = document.querySelector('.langWrap');
+        const link = document.querySelectorAll('a');
+        const titleEl = document.querySelector('.title');
+        const carouselEl = document.querySelector('.carouselCap1');
+        const descrEl = document.querySelector('.aboutParagraph1');
+
+        link.forEach((el) => {
+          el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+          });
+        });
+
+        let data = {
+          english: {
+            title: 'About Us',
+            navLink1: 'Home',
+            navLink2: 'About',
+            navLink3: 'Production',
+            navLink4: 'Contact',
+            carouselCap1:
+              'LLC "KOLYAR" - Guarantee of high quality and timely delivery!',
+            carouselCap2: 'LLC "KOLYAR" - Search for ways to cooperate!',
+            carouselCap3: 'Thank you for choosing "KOLYAR" LLC!',
+            aboutParagraph1:
+              '"KOLYAR" LLC is a company that works successfully on the market agricultural products of Ukraine and the international market. We we carry out export deliveries of goods of Ukrainian origin: grain, leguminous, oil crops, medicinal plants, seeds for feed for birds and domestic animals, spices, cereals, vegetables, oils, etc. Our company actively cooperates with a large number of leading companies Ukrainian producers of agricultural products, elevators, grain processing enterprises, feed mills, oil and fat plants, transport enterprises.',
+            aboutParagraph2:
+              'Our products are shipped to a number of countries in Europe and Asia. In particular, in Germany, Austria, the Netherlands, Italy, Spain, Poland, the Czech Republic, Hungary, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and others countries.',
+            aboutParagraph3:
+              'The delivery of our goods is carried out by various types of transport means, in particular: grain wagons, sea containers, trucks. We provide product packaging in any types of containers (polypropylene/paper bags, big-bags, barrels, on pallets) or in bulk, depending on the requirements of our customers.',
+            aboutParagraph4:
+              'We value our customers very much, so we deliver only high-quality products quality We always carefully select the best products, we conduct constant quality checks at independent accredited ones laboratories.',
+          },
+        };
+      </script>
+
+      <nav class="navbar navbar-expand-lg" style="background-color: #fff">
+        <div class="container nav-container">
+          <div class="navbar-brand" href="#" style="padding-bottom: 18px">
+            <img class="logo" src="/images/Logo_kolyar_eng.jpg" />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav-link-wrap navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link n-l1" aria-current="page" href="index.html"
+                  >Головна</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link n-l2" href="#">Про нас</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Продукція</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/oliyni.html"
+                      >Олійні, спеції</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/bobovi.html">Бобові</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/nasinnya.html"
+                      >Насіння для корму птахів</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/zernovi.html">Зернові</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link n-l4" href="/contacts.html">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-center">
+        <h5 class="title" style="padding: 60px; font-weight: 600">Бобові</h5>
+        <div class="row g-2">
+          <div class="col-6 p-3">
+            <img src="/images/goroh-zeleniy.jpeg" />
+            <div class="p-3">Горох зелений</div>
+          </div>
+          <div class="col-6 p-3">
+            <img src="/images/goroh-zovtiy.jpeg" />
+            <div class="p-3">Горох жовтий</div>
+          </div>
+          <div class="col-6 p-3">
+            <img src="/images/goroh-pol.jpeg" />
+            <div class="p-3">Горох жовтий шліфований (половинки)</div>
+          </div>
+          <div class="col-6 p-3">
+            <img src="/images/bobu-svitli.jpeg" />
+            <div class="p-3">Боби кінські світло-коричневі</div>
+          </div>
+          <div class="col-6 p-3">
+            <img src="/images/bobi-temni.jpeg" />
+            <div class="p-3">Боби кінські темно-коричневі</div>
+          </div>
+          <div class="col-6 p-3">
+            <img src="/images/soja.jpeg" style="object-position: 0 100%" />
+            <div class="p-3">Соя</div>
+          </div>
+          <div class="col-6 p-3">
+            <img src="/images/nyt.jpeg" />
+            <div class="p-3">Нут</div>
+          </div>
+          <div class="col-6 p-3" style="padding-bottom: 60px !important">
+            <img src="/images/socheviza.jpeg" />
+            <div class="p-3">Сочевиця</div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center">
+        <div class="container p-4 pb-3">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5">
+              <p class="pt-2">
+                <strong>Наші соцмережі</strong>
+              </p>
+              <a target="_blank" href="https://www.facebook.com/kolyar1"
+                ><i class="fab fa-facebook-square logo-link-1"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/yaroslav-greshchuk-52336b15/"
+                ><i class="fab fa-linkedin-in logo-link-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="bottom-text text-center bg-dark">
+        <small style="color: #fff">© 2024 ТОВ "КОЛЯР"</small>
+      </div>
+    </div>
+    <!-- footer closed -->
+  </body>
+</html>
