@@ -38,9 +38,10 @@ a.active {
   background-color: #212529;
 }
 
-/* .langWrap a:hover {
-  background-color: #ced4da;
-} */
+a.lang-btn-active {
+  color: #ffbe00 !important;
+  background-color: #212529;
+}
 
 .nav-container {
   margin-bottom: 16px;
@@ -55,10 +56,6 @@ a {
   color: #46d3f3 !important;
 }
 
-/* a:hover {
-  color: #000 !important;
-} */
-
 .nav-item {
   font-size: 24px !important;
 }
@@ -71,6 +68,70 @@ a {
 .carousel-caption {
   bottom: 11rem !important;
 }
+
+.nav-item:hover {
+  background-color: #e9eaec;
+}
+
+.nav-item:focus {
+  background-color: #e9eaec;
+}
+
+.dropdown-item {
+  color: #ffbe00 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #e9eaec !important;
+}
+
+.dropdown-item:focus {
+  background-color: #e9eaec;
+}
+
+/* Footer  */
+
+footer {
+  background-image: url(/images/Sunflowers.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+strong {
+  color: #fff;
+  font-style: italic;
+}
+
+.fab {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.fab:hover {
+  background-color: #ced4da;
+}
+
+.logo-link-1 {
+  font-size: 24px;
+  color: #4267b2;
+  margin: 10px;
+}
+
+.logo-link-2 {
+  font-size: 24px;
+  color: #0072b1;
+  margin: 10px;
+}
+
+.bottom-text {
+  padding: 12px;
+}
+
+/* Responsive */
 
 @media (max-width: 540px) {
   .col-6 img {
@@ -143,63 +204,4 @@ a {
     border-left-style: none;
     border-right-style: none;
   }
-}
-.nav-item:hover {
-  background-color: #e9eaec;
-}
-
-.nav-item:focus {
-  background-color: #e9eaec;
-}
-
-.dropdown-item {
-  color: #ffbe00 !important;
-}
-
-.dropdown-item:hover {
-  background-color: #e9eaec !important;
-}
-
-.dropdown-item:focus {
-  background-color: #e9eaec;
-}
-
-footer {
-  background-image: url(/images/Sunflowers.png);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-
-strong {
-  color: #fff;
-  font-style: italic;
-}
-
-.fab {
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.fab:hover {
-  background-color: #ced4da;
-}
-
-.logo-link-1 {
-  font-size: 24px;
-  color: #4267b2;
-  margin: 10px;
-}
-
-.logo-link-2 {
-  font-size: 24px;
-  color: #0072b1;
-  margin: 10px;
-}
-
-.bottom-text {
-  padding: 12px;
 }

@@ -57,9 +57,10 @@ a.active {
   background-color: #212529;
 }
 
-/* .langWrap a:hover {
-      background-color: #ced4da;
-    } */
+a.lang-btn-active {
+  color: #ffbe00 !important;
+  background-color: #212529;
+}
 
 .nav-container {
   margin-bottom: 16px;
@@ -73,10 +74,6 @@ a.active {
 a {
   color: #46d3f3 !important;
 }
-
-/* a:hover {
-      color: #000 !important;
-    } */
 
 .nav-item {
   font-size: 24px !important;

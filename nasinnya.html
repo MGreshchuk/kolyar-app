@@ -6,13 +6,10 @@
 
     <link rel="shortcut icon" type="x-icon" href="/images/1.jpg" />
 
-    <link rel="stylesheet" href="nasinnya.css" />
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -31,59 +28,25 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Kolyar</title>
+    <title data-lang="home_page-title">Kolyar</title>
+
+    <link rel="stylesheet" href="nasinnya.css" />
   </head>
   <body>
     <div class="main-container">
       <div class="langWrap">
-        <a href="#" language="ukrainian" class="active">UA</a>
-        <a href="#" language="english">EN</a>
-        <a href="#" language="german">DE</a>
-        <a href="#" language="polish">PL</a>
+        <a href="#" data-btn="ua" class="lang-btn">UA</a>
+        <a href="#" data-btn="en" class="lang-btn">EN</a>
+        <a href="#" data-btn="de" class="lang-btn">DE</a>
+        <a href="#" data-btn="pl" class="lang-btn">PL</a>
       </div>
-
-      <script>
-        const langEl = document.querySelector('.langWrap');
-        const link = document.querySelectorAll('a');
-        const titleEl = document.querySelector('.title');
-        const carouselEl = document.querySelector('.carouselCap1');
-        const descrEl = document.querySelector('.aboutParagraph1');
-
-        link.forEach((el) => {
-          el.addEventListener('click', () => {
-            langEl.querySelector('.active').classList.remove('active');
-            el.classList.add('active');
-          });
-        });
-
-        let data = {
-          english: {
-            title: 'About Us',
-            navLink1: 'Home',
-            navLink2: 'About',
-            navLink3: 'Production',
-            navLink4: 'Contact',
-            carouselCap1:
-              'LLC "KOLYAR" - Guarantee of high quality and timely delivery!',
-            carouselCap2: 'LLC "KOLYAR" - Search for ways to cooperate!',
-            carouselCap3: 'Thank you for choosing "KOLYAR" LLC!',
-            aboutParagraph1:
-              '"KOLYAR" LLC is a company that works successfully on the market agricultural products of Ukraine and the international market. We we carry out export deliveries of goods of Ukrainian origin: grain, leguminous, oil crops, medicinal plants, seeds for feed for birds and domestic animals, spices, cereals, vegetables, oils, etc. Our company actively cooperates with a large number of leading companies Ukrainian producers of agricultural products, elevators, grain processing enterprises, feed mills, oil and fat plants, transport enterprises.',
-            aboutParagraph2:
-              'Our products are shipped to a number of countries in Europe and Asia. In particular, in Germany, Austria, the Netherlands, Italy, Spain, Poland, the Czech Republic, Hungary, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and others countries.',
-            aboutParagraph3:
-              'The delivery of our goods is carried out by various types of transport means, in particular: grain wagons, sea containers, trucks. We provide product packaging in any types of containers (polypropylene/paper bags, big-bags, barrels, on pallets) or in bulk, depending on the requirements of our customers.',
-            aboutParagraph4:
-              'We value our customers very much, so we deliver only high-quality products quality We always carefully select the best products, we conduct constant quality checks at independent accredited ones laboratories.',
-          },
-        };
-      </script>
 
       <nav class="navbar navbar-expand-lg" style="background-color: #fff">
         <div class="container nav-container">
           <div class="navbar-brand" href="#" style="padding-bottom: 18px">
             <img class="logo" src="/images/Logo_kolyar_eng.jpg" />
           </div>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -98,12 +61,21 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav-link-wrap navbar-nav ms-auto">
               <li class="nav-item active">
-                <a class="nav-link n-l1" aria-current="page" href="index.html"
+                <a
+                  class="nav-link n-l1"
+                  aria-current="page"
+                  href="index.html"
+                  data-lang="home_page-navlink1"
                   >Головна</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link n-l2" href="/aboutus.html">Про нас</a>
+                <a
+                  class="nav-link n-l2"
+                  href="/aboutus.html"
+                  data-lang="home_page-navlink2"
+                  >Про нас</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -112,29 +84,51 @@
                   href="#"
                   role="button"
                   aria-expanded="false"
+                  data-lang="home_page-navlink3"
                   >Продукція</a
                 >
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/oliyni.html"
+                    <a
+                      class="dropdown-item"
+                      href="/oliyni.html"
+                      data-lang="home_page-dd1"
                       >Олійні, спеції</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/bobovi.html">Бобові</a>
+                    <a
+                      class="dropdown-item"
+                      href="/bobovi.html"
+                      data-lang="home_page-dd2"
+                      >Бобові</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/nasinnya.html"
+                    <a
+                      class="dropdown-item"
+                      href="/nasinnya.html"
+                      data-lang="home_page-dd3"
                       >Насіння для корму птахів</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/zernovi.html">Зернові</a>
+                    <a
+                      class="dropdown-item"
+                      href="/zernovi.html"
+                      data-lang="home_page-dd4"
+                      >Зернові</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link n-l4" href="/contacts.html">Контакти</a>
+                <a
+                  class="nav-link n-l4"
+                  href="/contacts.html"
+                  data-lang="home_page-navlink4"
+                  >Контакти</a
+                >
               </li>
             </ul>
           </div>
@@ -147,7 +141,7 @@
         </h5>
         <div class="row g-2">
           <div class="col-6 p-3">
-            <img src="/images/vyka_moh.jpeg" />
+            <img src="/images/vyka_moh.jpeg" style="object-position: 0 100%" />
             <div class="p-3">Вика озима мохната</div>
           </div>
           <div class="col-6 p-3">
@@ -159,7 +153,10 @@
             <div class="p-3">Вика ярова світло-коричнева</div>
           </div>
           <div class="col-6 p-3">
-            <img src="/images/vika-jar-temna.jpeg" />
+            <img
+              src="/images/vika-jar-temna.jpeg"
+              style="object-position: 0 100%"
+            />
             <div class="p-3">Вика ярова темно-коричнева</div>
           </div>
           <div class="col-6 p-3">
@@ -198,7 +195,10 @@
             <div class="p-3">Сафлор</div>
           </div>
           <div class="col-6 p-3" style="padding-bottom: 60px !important">
-            <img src="/images/oliina-redka.jpeg" />
+            <img
+              src="/images/oliina-redka.jpeg"
+              style="object-position: 0 100%"
+            />
             <div class="p-3">Олійна редька</div>
           </div>
         </div>
@@ -227,6 +227,8 @@
         <small style="color: #fff">© 2024 ТОВ "КОЛЯР"</small>
       </div>
     </div>
+
     <!-- footer closed -->
+    <script src="/lng.js"></script>
   </body>
 </html>
