@@ -63,6 +63,7 @@ a {
 .about {
   background-color: #fff;
   padding: 60px 20px;
+  border-radius: 20px;
 }
 
 .title {
@@ -110,7 +111,7 @@ strong {
 
 @media (max-width: 540px) {
   .title {
-    font-size: small;
+    font-size: larger;
   }
 
   .langWrap {
@@ -139,8 +140,7 @@ strong {
   }
 
   .about {
-    font-size: 8px;
-    margin: 40px 60px;
+    margin: 40px;
   }
 }
 
