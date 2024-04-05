@@ -355,7 +355,7 @@ const oliyniTexts = {
   },
   'home_page-item6': {
     ua: 'Коріандр коричневий',
-    en: 'Brown Coriander',
+    en: 'Brown coriander',
     de: 'Korianderfrüchte ganz, braun',
     pl: 'Kolendra brązowa',
   },
@@ -589,10 +589,10 @@ const nasinnyaTexts = {
   },
 
   'home_page-production1': {
-    ua: 'Олійні, спеції',
-    en: 'Oilseeds, spices',
-    de: 'Ölsaaten und Gewürze',
-    pl: 'Rośliny oleiste i pzyprawy',
+    ua: 'Насіння для корму птахів',
+    en: 'Bird seed',
+    de: 'Samen für Vogelfutter',
+    pl: 'Nasiona dla ptaków',
   },
   'home_page-item1': {
     ua: 'Вика озима мохната',
