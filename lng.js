@@ -16,6 +16,12 @@ let currentLang =
 let currentTexts = {};
 
 const homeTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Головна',
+    en: '"Kolyar" LLC - Main',
+    de: '"Kolyar" LLC - Startseite',
+    pl: '"Kolyar" LLC - Główna',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
@@ -158,6 +164,12 @@ const homeTexts = {
 };
 
 const aboutTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Про нас',
+    en: '"Kolyar" LLC - About Us',
+    de: '"Kolyar" LLC - Unternehmensprofil',
+    pl: '"Kolyar" LLC - O nas',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
@@ -269,6 +281,12 @@ const aboutTexts = {
 };
 
 const oliyniTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Олійні, спеції',
+    en: '"Kolyar" LLC - Oilseeds, spices',
+    de: '"Kolyar" LLC - Ölsaaten und Gewürze',
+    pl: '"Kolyar" LLC - Rośliny oleiste i pzyprawy',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
@@ -422,6 +440,12 @@ const oliyniTexts = {
 };
 
 const boboviTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Бобові',
+    en: '"Kolyar" LLC - Legumes',
+    de: '"Kolyar" LLC - Hülsenfrüchte',
+    pl: '"Kolyar" LLC - Rośliny strączkowe',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
@@ -539,6 +563,12 @@ const boboviTexts = {
 };
 
 const nasinnyaTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Насіння для корму птахів',
+    en: '"Kolyar" LLC - Bird seed',
+    de: '"Kolyar" LLC - Samen für Vogelfutter',
+    pl: '"Kolyar" LLC - Nasiona dla ptaków',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
@@ -687,6 +717,12 @@ const nasinnyaTexts = {
 };
 
 const zernoviTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Зернові',
+    en: '"Kolyar" LLC - Cereals',
+    de: '"Kolyar" LLC - Getreide',
+    pl: '"Kolyar" LLC - Rośliny uprawne',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
@@ -804,6 +840,12 @@ const zernoviTexts = {
 };
 
 const contactsTexts = {
+  'home_page-title': {
+    ua: 'ТОВ "Коляр" - Контакти',
+    en: '"Kolyar" LLC - Contacts',
+    de: '"Kolyar" LLC - Kontakt',
+    pl: '"Kolyar" LLC - Kontakty',
+  },
   'home_page-navlink1': {
     ua: 'Головна',
     en: 'Main',
