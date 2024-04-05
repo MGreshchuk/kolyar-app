@@ -901,22 +901,34 @@ const contactsTexts = {
     pl: '"KOLYAR" LLC',
   },
   'home_page-body1': {
-    ua: 'вул. Гетьмана Мазепи, 40/17,',
-    en: 'Hetman Mazepa, 40/17, str.',
-    de: 'Hetman Mazepa, 40/17, str.',
-    pl: 'Hetmana Mazepy, 40/17, ul.',
+    ua: 'вул. Гетьмана Мазепи, 40/17, м. Івано-Франківськ, 76018, Україна',
+    en: 'Hetman Mazepa, 40/17, str., Ivano-Frankivsk, 76018, Ukraine',
+    de: 'Hetman Mazepa, 40/17, str., Iwano-Frankiwsk, 76018, Ukraine',
+    pl: 'Hetmana Mazepy, 40/17, ul., Iwano-Frankowsk, 76018, Ukraina',
   },
-  'home_page-body2': {
-    ua: 'м. Івано-Франківськ,',
-    en: 'Ivano-Frankivsk,',
-    de: 'Iwano-Frankiwsk,',
-    pl: 'Iwano-Frankowsk,',
+  'home_page-body-ceo': {
+    ua: 'Загальний: +380 67 3445020',
+    en: 'General: +380 67 3445020',
+    de: 'Allgemein: +380 67 3445020',
+    pl: 'Ogólne: +380 67 3445020',
   },
-  'home_page-body3': {
-    ua: '76018, Україна',
-    en: '76018, Ukraine',
-    de: '76018, Ukraine',
-    pl: '76018, Ukraina',
+  'home_page-body-lead': {
+    ua: 'Керівництво: +380 97 0788122',
+    en: 'Management: +380 97 0788122',
+    de: 'Leitung: +380 97 0788122',
+    pl: 'Zarządzanie: +380 97 0788122',
+  },
+  'home_page-body-traders': {
+    ua: 'Трейдери: +380 67 3447286',
+    en: 'Traders: +380 67 3447286',
+    de: 'Händler: +380 67 3447286',
+    pl: 'Handlowcy: +380 67 3447286',
+  },
+  'home_page-body-finance': {
+    ua: 'Фінанси і бухгалтерія:',
+    en: 'Finance and accounting:',
+    de: 'Finanz-und Rechnungswesen:',
+    pl: 'Finanse i księgowość:',
   },
   'home_page-footer1': {
     ua: 'Наші соцмережі',
