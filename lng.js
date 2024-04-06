@@ -17,7 +17,7 @@ let currentTexts = {};
 
 const homeTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Головна',
+    ua: 'ТОВ "КОЛЯР" - Головна',
     en: 'KOLYAR LTD. - Main',
     de: 'KOLYAR LTD. - Startseite',
     pl: 'KOLYAR LTD. - Główna',
@@ -71,31 +71,31 @@ const homeTexts = {
     pl: 'Kontakty',
   },
   'home_page-caption1': {
-    ua: 'ТОВ КОЛЯР - Гарантія високої якості та вчасної доставки!',
+    ua: 'ТОВ "КОЛЯР" - Гарантія високої якості та вчасної доставки!',
     en: 'KOLYAR LTD. - Guarantee of high quality and timely delivery!',
     de: 'LTD. KOLYAR – Garantie für hohe Qualität und pünktliche Lieferung!',
     pl: 'LTD. KOLYAR - gwarancja wysokiej jakości i terminowości dostaw!',
   },
   'home_page-caption2': {
-    ua: 'ТОВ КОЛЯР - Пошук способів співпраці!',
+    ua: 'ТОВ "КОЛЯР" - Пошук способів співпраці!',
     en: 'KOLYAR LTD. - We are looking for opportunities for cooperation!',
     de: 'LTD. KOLYAR – Wir suchen nach Möglichkeiten der Zusammenarbeit!',
     pl: 'LTD. KOLYAR - Poszukiwanie sposobów współpracy!',
   },
   'home_page-caption3': {
-    ua: 'Дякуємо, що обрали - ТОВ КОЛЯР!',
+    ua: 'Дякуємо, що обрали - ТОВ "КОЛЯР"!',
     en: 'Thank you for choosing KOLYAR LTD.!',
     de: 'Vielen Dank, dass Sie sich für KOLYAR LTD. entschieden haben!',
     pl: 'Dziękujemy za wybranie KOLYAR LTD.!',
   },
   'home_page-about': {
-    ua: 'Вітаємо Вас на сторінці ТОВ КОЛЯР',
+    ua: 'Вітаємо Вас на сторінці ТОВ "КОЛЯР"',
     en: 'Welcome to the page of KOLYAR LTD.',
     de: 'Willkommen auf der Seite von KOLYAR LTD.',
     pl: 'Witamy na stronie firmy KOLYAR LTD.',
   },
   'home_page-body1': {
-    ua: 'ТОВ КОЛЯР - компанія, яка успішно працює на ринку сільськогосподарської продукції України та міжнародному ринку. Ми здійснюємо експортні поставки товарів українського походження:  зернових, бобових, олійних культур, лікарських рослин, насіння для корму птахів та домашніх тварин, спецій, круп, овочів, олій і т.ін. Наша компанія, активно, співпрацює з великою кількістю провідних українських виробників сільськогосподарської продукції, елеваторами, зернопереробними підприємствами, комбікормовими заводами, олійно-жировими комбінатами, транспортними підприємствами.',
+    ua: 'ТОВ "КОЛЯР" - компанія, яка успішно працює на ринку сільськогосподарської продукції України та міжнародному ринку. Ми здійснюємо експортні поставки товарів українського походження:  зернових, бобових, олійних культур, лікарських рослин, насіння для корму птахів та домашніх тварин, спецій, круп, овочів, олій і т.ін. Наша компанія, активно, співпрацює з великою кількістю провідних українських виробників сільськогосподарської продукції, елеваторами, зернопереробними підприємствами, комбікормовими заводами, олійно-жировими комбінатами, транспортними підприємствами.',
     en: 'KOLYAR LTD. is a company that successfully operates on the market of agricultural products of Ukraine and the international market. We export goods of Ukrainian origin: grains, legumes, oil crops, medicinal plants, seeds for bird and pet feed, spices, cereals, vegetables, oils, etc. Our company actively cooperates with a large number of leading Ukrainian producers of agricultural products, elevators, grain processing enterprises, feed mills, oil and fat plants, transport enterprises.',
     de: 'KOLYAR LTD. ist ein Unternehmen, das erfolgreich auf dem Markt für Agrarprodukte der Ukraine und auf dem internationalen Markt tätig ist. Wir exportieren Waren ukrainischen Ursprungs: Getreide, Hülsenfrüchte, Ölpflanzen, Heilpflanzen, Samen für Vogel- und Haustierfutter, Gewürze, Getreide, Gemüse, Öle usw. Unser Unternehmen arbeitet aktiv mit einer Vielzahl führender ukrainischer Hersteller von Agrarprodukten, Elevatoren, Getreideverarbeitungsbetrieben, Futtermühlen, Öl- und Fettfabriken sowie Transportunternehmen zusammen.',
     pl: 'KOLYAR LTD. to firma, która z sukcesem działa na rynku produktów rolnych Ukrainy i na rynku międzynarodowym. Eksportujemy towary pochodzenia ukraińskiego: zboża, rośliny strączkowe, rośliny oleiste, rośliny lecznicze, nasiona na karmę dla ptaków i zwierząt domowych, przyprawy, zboża, warzywa, oleje itp. Nasza firma aktywnie współpracuje z dużą liczbą wiodących ukraińskich producentów produktów rolnych, elewatorów, przedsiębiorstw przetwórstwa zbożowego, wytwórni pasz, zakładów olejarskich i tłuszczowych, przedsiębiorstw transportowych.',
@@ -156,7 +156,7 @@ const homeTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
@@ -165,7 +165,7 @@ const homeTexts = {
 
 const aboutTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Про нас',
+    ua: 'ТОВ "КОЛЯР" - Про нас',
     en: 'KOLYAR LTD. - About Us',
     de: 'KOLYAR LTD. - Unternehmensprofil',
     pl: 'KOLYAR LTD. - O nas',
@@ -219,7 +219,7 @@ const aboutTexts = {
     pl: 'O nas',
   },
   'about_page-body1': {
-    ua: 'ТОВ КОЛЯР - компанія, яка успішно працює на ринку сільськогосподарської продукції України та міжнародному ринку. Ми здійснюємо експортні поставки товарів українського походження:  зернових, бобових, олійних культур, лікарських рослин, насіння для корму птахів та домашніх тварин, спецій, круп, овочів, олій і т.ін. Наша компанія, активно, співпрацює з великою кількістю провідних українських виробників сільськогосподарської продукції, елеваторами, зернопереробними підприємствами, комбікормовими заводами, олійно-жировими комбінатами, транспортними підприємствами.',
+    ua: 'ТОВ "КОЛЯР" - компанія, яка успішно працює на ринку сільськогосподарської продукції України та міжнародному ринку. Ми здійснюємо експортні поставки товарів українського походження:  зернових, бобових, олійних культур, лікарських рослин, насіння для корму птахів та домашніх тварин, спецій, круп, овочів, олій і т.ін. Наша компанія, активно, співпрацює з великою кількістю провідних українських виробників сільськогосподарської продукції, елеваторами, зернопереробними підприємствами, комбікормовими заводами, олійно-жировими комбінатами, транспортними підприємствами.',
     en: 'KOLYAR LTD. is a company that successfully operates on the market of agricultural products of Ukraine and the international market. We export goods of Ukrainian origin: grains, legumes, oil crops, medicinal plants, seeds for bird and pet feed, spices, cereals, vegetables, oils, etc. Our company actively cooperates with a large number of leading Ukrainian producers of agricultural products, elevators, grain processing enterprises, feed mills, oil and fat plants, transport enterprises.',
     de: 'KOLYAR LTD. ist ein Unternehmen, das erfolgreich auf dem Markt für Agrarprodukte der Ukraine und auf dem internationalen Markt tätig ist. Wir exportieren Waren ukrainischen Ursprungs: Getreide, Hülsenfrüchte, Ölpflanzen, Heilpflanzen, Samen für Vogel- und Haustierfutter, Gewürze, Getreide, Gemüse, Öle usw. Unser Unternehmen arbeitet aktiv mit einer Vielzahl führender ukrainischer Hersteller von Agrarprodukten, Elevatoren, Getreideverarbeitungsbetrieben, Futtermühlen, Öl- und Fettfabriken sowie Transportunternehmen zusammen.',
     pl: 'KOLYAR LTD. to firma, która z sukcesem działa na rynku produktów rolnych Ukrainy i na rynku międzynarodowym. Eksportujemy towary pochodzenia ukraińskiego: zboża, rośliny strączkowe, rośliny oleiste, rośliny lecznicze, nasiona na karmę dla ptaków i zwierząt domowych, przyprawy, zboża, warzywa, oleje itp. Nasza firma aktywnie współpracuje z dużą liczbą wiodących ukraińskich producentów produktów rolnych, elewatorów, przedsiębiorstw przetwórstwa zbożowego, wytwórni pasz, zakładów olejarskich i tłuszczowych, przedsiębiorstw transportowych.',
@@ -243,7 +243,7 @@ const aboutTexts = {
     pl: 'Bardzo cenimy naszych klientów, dlatego dostarczamy wyłącznie produkty wysokiej jakości. Zawsze przeprowadzamy staranną selekcję najlepszych produktów, prowadzimy stałą kontrolę jakości w niezależnych, akredytowanych laboratoriach.',
   },
   'about_page-body5': {
-    ua: 'ТОВ КОЛЯР є дійсним членом Торгово-Промислової палати України.',
+    ua: 'ТОВ "КОЛЯР" є дійсним членом Торгово-Промислової палати України.',
     en: 'KOLYAR LTD. is a valid member of the Chamber of Commerce and Industry of Ukraine.',
     de: 'KOLYAR LTD. ist ein gültiges Mitglied der Handels- und Industriekammer der Ukraine.',
     pl: 'KOLYAR LTD. jest ważnym członkiem Izby Przemysłowo-Handlowej Ukrainy.',
@@ -261,7 +261,7 @@ const aboutTexts = {
     pl: 'NASZ ZESPÓŁ: Kadra naszej firmy to wysoko wykwalifikowani specjaliści z zakresu handlu produktami rolnymi, handlu międzynarodowego i logistyki, którzy stale studiują i badają rynek oraz posiadają wieloletnie praktyczne i pełne sukcesów doświadczenie. Nasz zespół zawsze znajdzie optymalne, wzajemnie korzystne rozwiązanie, aby maksymalnie zaspokoić potrzeby i wymagania naszych partnerów biznesowych. Naszym credo jest uczciwość, uczciwość i przejrzystość we wszystkim, co robimy.',
   },
   'about_page-body8': {
-    ua: 'ІНТЕРЕСИ: ТОВ КОЛЯР зацікавлене в налагодженні плідної співпраці з новими та подальшому розвитку співпраці з нашими постійними бізнес-партнерами в Україні, які займаються виробництвом, переробкою, зберіганням, транспортуванням аграрної та промислової продукції. Ми, також, зацікавлені у розвитку взаємовигідних стосунків з нашими постійними та потенційними клієнтами закордоном, які мають інтерес у закупівлях української сільськогосподарської, продовольчої та промислової продукції. Наша компанія є відкритою для обговорення та зацікавлена у втіленні нових перспективних інвестиційних проектів.',
+    ua: 'ІНТЕРЕСИ: ТОВ "КОЛЯР" зацікавлене в налагодженні плідної співпраці з новими та подальшому розвитку співпраці з нашими постійними бізнес-партнерами в Україні, які займаються виробництвом, переробкою, зберіганням, транспортуванням аграрної та промислової продукції. Ми, також, зацікавлені у розвитку взаємовигідних стосунків з нашими постійними та потенційними клієнтами закордоном, які мають інтерес у закупівлях української сільськогосподарської, продовольчої та промислової продукції. Наша компанія є відкритою для обговорення та зацікавлена у втіленні нових перспективних інвестиційних проектів.',
     en: 'INTERESTS: KOLYAR LTD. is interested in establishing fruitful cooperation with new and further development of cooperation with our permanent business partners in Ukraine, who are engaged in production, processing, storage, transportation of agricultural and industrial products. We are also interested in developing mutually beneficial relations with our regular and potential customers abroad who are interested in purchasing Ukrainian agricultural, food and industrial products. Our company is open to discussion and is interested in implementing new promising investment projects.',
     de: 'INTERESSEN: KOLYAR LTD. ist daran interessiert, eine fruchtbare Zusammenarbeit mit unseren ständigen Geschäftspartnern in der Ukraine aufzubauen, die sich mit der Produktion, Verarbeitung, Lagerung und dem Transport landwirtschaftlicher und industrieller Produkte befassen. Wir sind auch daran interessiert, für beide Seiten vorteilhafte Beziehungen zu unseren Stammkunden und potenziellen Kunden im Ausland aufzubauen, die am Kauf ukrainischer Agrar-, Lebensmittel- und Industrieprodukte interessiert sind. Unser Unternehmen ist offen für Diskussionen und an der Umsetzung neuer vielversprechender Investitionsprojekte interessiert.',
     pl: 'ZAINTERESOWANIA: KOLYAR LTD. jest zainteresowana nawiązaniem owocnej współpracy w postaci nowego i dalszego rozwoju współpracy z naszymi stałymi partnerami biznesowymi na Ukrainie, zajmującymi się produkcją, przetwarzaniem, magazynowaniem, transportem produktów rolnych i przemysłowych. Jesteśmy również zainteresowani rozwojem wzajemnie korzystnych relacji z naszymi stałymi i potencjalnymi klientami za granicą, którzy są zainteresowani zakupem ukraińskich produktów rolnych, spożywczych i przemysłowych. Nasza firma jest otwarta na dyskusję i zainteresowana realizacją nowych perspektywicznych projektów inwestycyjnych.',
@@ -273,7 +273,7 @@ const aboutTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
@@ -282,7 +282,7 @@ const aboutTexts = {
 
 const oliyniTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Олійні, спеції',
+    ua: 'ТОВ "КОЛЯР" - Олійні, спеції',
     en: 'KOLYAR LTD. - Oilseeds, spices',
     de: 'KOLYAR LTD. - Ölsaaten und Gewürze',
     pl: 'KOLYAR LTD. - Rośliny oleiste i pzyprawy',
@@ -432,7 +432,7 @@ const oliyniTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
@@ -441,7 +441,7 @@ const oliyniTexts = {
 
 const boboviTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Бобові',
+    ua: 'ТОВ "КОЛЯР" - Бобові',
     en: 'KOLYAR LTD. - Legumes',
     de: 'KOLYAR LTD. - Hülsenfrüchte',
     pl: 'KOLYAR LTD. - Rośliny strączkowe',
@@ -556,7 +556,7 @@ const boboviTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
@@ -565,7 +565,7 @@ const boboviTexts = {
 
 const nasinnyaTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Насіння для корму птахів',
+    ua: 'ТОВ "КОЛЯР" - Насіння для корму птахів',
     en: 'KOLYAR LTD. - Bird seed',
     de: 'KOLYAR LTD. - Samen für Vogelfutter',
     pl: 'KOLYAR LTD. - Nasiona dla ptaków',
@@ -710,7 +710,7 @@ const nasinnyaTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
@@ -719,7 +719,7 @@ const nasinnyaTexts = {
 
 const zernoviTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Зернові',
+    ua: 'ТОВ "КОЛЯР" - Зернові',
     en: 'KOLYAR LTD. - Cereals',
     de: 'KOLYAR LTD. - Getreide',
     pl: 'KOLYAR LTD. - Rośliny uprawne',
@@ -833,7 +833,7 @@ const zernoviTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
@@ -842,7 +842,7 @@ const zernoviTexts = {
 
 const contactsTexts = {
   'home_page-title': {
-    ua: 'ТОВ КОЛЯР - Контакти',
+    ua: 'ТОВ "КОЛЯР" - Контакти',
     en: 'KOLYAR LTD. - Contacts',
     de: 'KOLYAR LTD. - Kontakt',
     pl: 'KOLYAR LTD. - Kontakty',
@@ -896,7 +896,7 @@ const contactsTexts = {
     pl: 'Kontakty',
   },
   'home_page-body-title': {
-    ua: 'ТОВ КОЛЯР',
+    ua: 'ТОВ "КОЛЯР"',
     en: 'KOLYAR LTD.',
     de: 'KOLYAR LTD.',
     pl: 'KOLYAR LTD.',
@@ -938,7 +938,7 @@ const contactsTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ КОЛЯР',
+    ua: '© 2024 ТОВ "КОЛЯР"',
     en: '© 2024 KOLYAR LTD.',
     de: '© 2024 KOLYAR LTD.',
     pl: '© 2024 KOLYAR LTD.',
