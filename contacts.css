@@ -79,6 +79,10 @@ a {
   font-weight: 600;
 }
 
+.fa-solid {
+  margin: 0 4px;
+}
+
 footer {
   background-color: #ffbe00;
   display: flex;
