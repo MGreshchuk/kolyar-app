@@ -156,10 +156,10 @@ const homeTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 
@@ -279,10 +279,10 @@ const aboutTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 
@@ -438,10 +438,10 @@ const oliyniTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 
@@ -561,10 +561,10 @@ const boboviTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 
@@ -715,10 +715,10 @@ const nasinnyaTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 
@@ -838,10 +838,10 @@ const zernoviTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 
@@ -943,10 +943,10 @@ const contactsTexts = {
     pl: 'Nasze sieci społecznościowe',
   },
   'home_page-footer2': {
-    ua: '© 2024 ТОВ "КОЛЯР"',
-    en: '© 2024 KOLYAR LTD.',
-    de: '© 2024 KOLYAR LTD.',
-    pl: '© 2024 KOLYAR LTD.',
+    ua: '© 2009 ТОВ "КОЛЯР"',
+    en: '© 2009 KOLYAR LTD.',
+    de: '© 2009 KOLYAR LTD.',
+    pl: '© 2009 KOLYAR LTD.',
   },
 };
 

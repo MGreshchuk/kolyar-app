@@ -158,8 +158,28 @@ strong {
   }
 
   .about {
-    font-size: 8px;
-    margin: 120px 20px;
+    font-size: 14px;
+    margin: 120px 10px;
+  }
+}
+
+@media (min-width: 270px) {
+  .about {
+    font-size: 10px;
+    margin: 120px 2px;
+  }
+}
+@media (min-width: 361px) {
+  .about {
+    font-size: 12px;
+    margin: 120px 24px;
+  }
+}
+
+@media (min-width: 420px) {
+  .about {
+    font-size: 14px;
+    margin: 120px 28px;
   }
 }
 
@@ -169,7 +189,8 @@ strong {
   }
 
   .about {
-    margin: 120px !important;
+    font-size: 20px;
+    margin: 120px 90px !important;
   }
 
   .logo {
@@ -197,6 +218,6 @@ strong {
   }
 
   .about {
-    margin: 120px 200px !important;
+    margin: 120px 180px !important;
   }
 }

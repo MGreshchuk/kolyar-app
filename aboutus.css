@@ -179,4 +179,8 @@ strong {
     border-left-style: none;
     border-right-style: none;
   }
+
+  .about p {
+    font-size: 18px;
+  }
 }

@@ -67,6 +67,10 @@ a {
   bottom: 11rem !important;
 }
 
+.about p {
+  font-size: 12px;
+}
+
 .col-6 img {
   width: 300px;
   height: 300px;
@@ -193,5 +197,9 @@ strong {
     border-width: 1px;
     border-left-style: none;
     border-right-style: none;
+  }
+
+  .about p {
+    font-size: 18px;
   }
 }
