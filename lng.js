@@ -212,6 +212,12 @@ const aboutTexts = {
     de: 'Getreide',
     pl: 'Rośliny uprawne',
   },
+  'home_page-navlink4': {
+    ua: 'Контакти',
+    en: 'Contacts',
+    de: 'Kontakt',
+    pl: 'Kontakty',
+  },
   'about_page-welcome': {
     ua: 'Про нас',
     en: 'About Us',
@@ -475,7 +481,6 @@ const boboviTexts = {
     en: 'Legumes',
     de: 'Hülsenfrüchte',
     pl: 'Rośliny strączkowe',
-    //
   },
   'home_page-dd3': {
     ua: 'Насіння для корму птахів',
