@@ -65,7 +65,7 @@ a {
 
 .about {
   background-color: #fff;
-  padding: 80px 0px;
+  padding: 40px 0px;
   border-radius: 20px;
 }
 
@@ -159,17 +159,17 @@ strong {
 
   .about {
     font-size: 8px;
-    margin: 40px 60px;
+    margin: 120px 20px;
   }
 }
 
-@media (min-width: 540px) {
+@media (min-width: 541px) {
   h5 {
     font-size: 36px !important;
   }
 
   .about {
-    margin: 65px 160px !important;
+    margin: 120px !important;
   }
 
   .logo {
@@ -194,5 +194,9 @@ strong {
     border-width: 1px;
     border-left-style: none;
     border-right-style: none;
+  }
+
+  .about {
+    margin: 120px 200px !important;
   }
 }
