@@ -907,10 +907,16 @@ const contactsTexts = {
     pl: 'KOLYAR LTD.',
   },
   'home_page-body1': {
-    ua: 'вул. Гетьмана Мазепи, 40/17, м. Івано-Франківськ, 76018, Україна',
-    en: 'Hetman Mazepa, 40/17, str., Ivano-Frankivsk, 76018, Ukraine',
-    de: 'Hetman Mazepa, 40/17, str., Iwano-Frankiwsk, 76018, Ukraine',
-    pl: 'ul. Hetmana Mazepy, 40/17, Iwano-Frankowsk, 76018, Ukraina',
+    ua: 'вул. Гетьмана Мазепи, 40/17, м. Івано-Франківськ, ',
+    en: 'Hetman Mazepa, 40/17, str., Ivano-Frankivsk, ',
+    de: 'Hetman Mazepa, 40/17, str., Iwano-Frankiwsk, ',
+    pl: 'ul. Hetmana Mazepy, 40/17, Iwano-Frankowsk, ',
+  },
+  'home_page-body2': {
+    ua: '76018, Україна',
+    en: '76018, Ukraine',
+    de: '76018, Ukraine',
+    pl: '76018, Ukraina',
   },
   'home_page-body-ceo': {
     ua: 'Загальний: ',
