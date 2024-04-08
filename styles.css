@@ -12,7 +12,7 @@
   display: flex;
   justify-content: flex-end;
   background-color: #ffbe00;
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .langWrap a {
@@ -118,7 +118,8 @@ strong {
 }
 
 .bottom-text {
-  padding: 12px;
+  padding: 8px;
+  font-size: 12px;
 }
 
 /* Responsive */
