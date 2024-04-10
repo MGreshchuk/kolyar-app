@@ -101,10 +101,10 @@ const homeTexts = {
     pl: 'KOLYAR LTD. to firma, która z sukcesem działa na rynku produktów rolnych Ukrainy i na rynku międzynarodowym. Eksportujemy towary pochodzenia ukraińskiego: zboża, rośliny strączkowe, rośliny oleiste, rośliny lecznicze, nasiona na karmę dla ptaków i zwierząt domowych, przyprawy, zboża, warzywa, oleje itp. Nasza firma aktywnie współpracuje z dużą liczbą wiodących ukraińskich producentów produktów rolnych, elewatorów, przedsiębiorstw przetwórstwa zbożowego, wytwórni pasz, zakładów olejarskich i tłuszczowych, przedsiębiorstw transportowych.',
   },
   'home_page-body2': {
-    ua: 'Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію, Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші країни.',
-    en: 'Our products are shipped to a number of countries in Europe and Asia. In particular, to Germany, Austria, the Netherlands, Italy, Spain, Poland, the Czech Republic, Hungary, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and other countries.',
-    de: 'Unsere Produkte werden in eine Reihe von Ländern in Europa und Asien versendet. Insbesondere nach Deutschland, Österreich, Niederlande, Italien, Spanien, Polen, Tschechien, Ungarn, Serbien, Bulgarien, Türkei, Irak, Usbekistan und andere Länder.',
-    pl: 'Nasze produkty wysyłamy do wielu krajów Europy i Azji. W szczególności do Niemiec, Austrii, Holandii, Włoch, Hiszpanii, Polski, Czech, Węgier, Serbii, Bułgarii, Turcji, Iraku, Uzbekistanu i innych krajów.',
+    ua: 'Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в Німеччину, Австрію, Нідерланди, Бельгію, Італію, Іспанію, Польщу, Чехію, Угорщину, Румунію, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші країни.',
+    en: 'Our products are shipped to a number of countries in Europe and Asia. In particular, to Germany, Austria, the Netherlands, Belgium, Italy, Spain, Poland, the Czech Republic, Hungary, Romania, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and other countries.',
+    de: 'Unsere Produkte werden in eine Reihe von Ländern in Europa und Asien versendet. Insbesondere nach Deutschland, Österreich, Niederlande, Belgien, Italien, Spanien, Polen, Tschechien, Ungarn, Rumänien, Serbien, Bulgarien, Türkei, Irak, Usbekistan und andere Länder.',
+    pl: 'Nasze produkty wysyłamy do wielu krajów Europy i Azji. W szczególności do Niemiec, Austrii, Holandii, Belgii, Włoch, Hiszpanii, Polski, Czech, Węgier, Rumunii, Serbii, Bułgarii, Turcji, Iraku, Uzbekistanu i innych krajów.',
   },
   'home_page-body3': {
     ua: 'Доставка наших товарів здійснюються різними видами транспортних засобів, зокрема: вагонами-зерновозами, морськими контейнерами, вантажними автомобілями. Ми забезпечуємо упакування продукції у будь-які види тари (поліпропіленові/паперові мішки, біг-беги, бочки, на піддонах) або насипом, в залежності від вимог наших покупців.',
@@ -120,10 +120,10 @@ const homeTexts = {
   },
 
   'home_page-production-title': {
-    ua: 'Продукція',
-    en: 'Production',
-    de: 'Produkte',
-    pl: 'Produkcja',
+    ua: 'Наша продукція',
+    en: 'Our production',
+    de: 'Unsere Produkte',
+    pl: 'Nasza produkcja',
   },
   'home_page-production1': {
     ua: 'Олійні, спеції',
@@ -231,10 +231,10 @@ const aboutTexts = {
     pl: 'KOLYAR LTD. to firma, która z sukcesem działa na rynku produktów rolnych Ukrainy i na rynku międzynarodowym. Eksportujemy towary pochodzenia ukraińskiego: zboża, rośliny strączkowe, rośliny oleiste, rośliny lecznicze, nasiona na karmę dla ptaków i zwierząt domowych, przyprawy, zboża, warzywa, oleje itp. Nasza firma aktywnie współpracuje z dużą liczbą wiodących ukraińskich producentów produktów rolnych, elewatorów, przedsiębiorstw przetwórstwa zbożowego, wytwórni pasz, zakładów olejarskich i tłuszczowych, przedsiębiorstw transportowych.',
   },
   'about_page-body2': {
-    ua: 'Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в Німеччину, Австрію, Нідерланди, Італію, Іспанію, Польщу, Чехію, Угорщину, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші країни.',
-    en: 'Our products are shipped to a number of countries in Europe and Asia. In particular, to Germany, Austria, the Netherlands, Italy, Spain, Poland, the Czech Republic, Hungary, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and other countries.',
-    de: 'Unsere Produkte werden in eine Reihe von Ländern in Europa und Asien versendet. Insbesondere nach Deutschland, Österreich, Niederlande, Italien, Spanien, Polen, Tschechien, Ungarn, Serbien, Bulgarien, Türkei, Irak, Usbekistan und andere Länder.',
-    pl: 'Nasze produkty wysyłamy do wielu krajów Europy i Azji. W szczególności do Niemiec, Austrii, Holandii, Włoch, Hiszpanii, Polski, Czech, Węgier, Serbii, Bułgarii, Turcji, Iraku, Uzbekistanu i innych krajów.',
+    ua: 'Наша продукція відвантажується в ряд країни Європи та Азії. Зокрема, в Німеччину, Австрію, Нідерланди, Бельгію, Італію, Іспанію, Польщу, Чехію, Угорщину, Румунію, Сербію, Болгарію, Туреччину, Ірак, Узбекистан та інші країни.',
+    en: 'Our products are shipped to a number of countries in Europe and Asia. In particular, to Germany, Austria, the Netherlands, Belgium, Italy, Spain, Poland, the Czech Republic, Hungary, Romania, Serbia, Bulgaria, Turkey, Iraq, Uzbekistan and other countries.',
+    de: 'Unsere Produkte werden in eine Reihe von Ländern in Europa und Asien versendet. Insbesondere nach Deutschland, Österreich, Niederlande, Belgien, Italien, Spanien, Polen, Tschechien, Ungarn, Rumänien, Serbien, Bulgarien, Türkei, Irak, Usbekistan und andere Länder.',
+    pl: 'Nasze produkty wysyłamy do wielu krajów Europy i Azji. W szczególności do Niemiec, Austrii, Holandii, Belgii, Włoch, Hiszpanii, Polski, Czech, Węgier, Rumunii, Serbii, Bułgarii, Turcji, Iraku, Uzbekistanu i innych krajów.',
   },
   'about_page-body3': {
     ua: 'Доставка наших товарів здійснюються різними видами транспортних засобів, зокрема: вагонами-зерновозами, морськими контейнерами, вантажними автомобілями. Ми забезпечуємо упакування продукції у будь-які види тари (поліпропіленові/паперові мішки, біг-беги, бочки, на піддонах) або насипом, в залежності від вимог наших покупців.',
